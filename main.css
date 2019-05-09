@@ -2,8 +2,9 @@
     width: 100px;
     height: 100px;
     background-color: #bada55;
-    transition-duration: 2s;
+    transition-duration: 0.5s;
     transition-property: width, background-color; /*chaining the properties together */
+    transition-timing-function: ease-in-out; /* Defaults to ease */
     
 }
 
