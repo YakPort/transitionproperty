@@ -1,0 +1,13 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #bada55;
+    transition-duration: 2s;
+    transition-property: width, background-color; /*chaining the properties together */
+    
+}
+
+.box:hover {
+    width: 200px;
+    background-color: #e84610;
+}
