@@ -1,0 +1,19 @@
+.ball {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #000;
+    position: relative;
+    animation: circle 1s infinite ease-in-out ;
+    animation-direction: alternate-reverse;
+    
+}
+
+@keyframes circle {
+    from {
+        top: 0;
+    }
+    to {
+        top: 100px;
+    }
+}  
